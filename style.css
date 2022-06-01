@@ -1,0 +1,52 @@
+/*
+Theme Name: Hello Elementor Child
+Theme URI: https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash
+Template: hello-elementor
+Author: Elementor Team
+Author URI: https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash
+Description: A plain-vanilla &amp; lightweight theme for Elementor page builder
+Tags: flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready
+Version: 2.5.0.1653987026
+Updated: 2022-05-31 08:50:26
+
+*/
+
+@media only screen and (min-width: 768pxpx) {
+    .elementor-nav-menu--dropdown {
+        min-width: 100% !important;
+    }
+
+
+}
+
+
+.shopengine-icon,
+.shopengine-widget-icon,
+[class*=" shopengine-icon-"],
+[class^="shopengine-icon-"] {
+    font-family: shopengine, shopengine_advanced_search !important;
+    speak: never;
+    font-style: normal;
+    font-weight: 300;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: none;
+}
+
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+    background-color: #AD5E0F;
+}
+
+.woocommerce a.button.alt:hover {
+    background-color: #873406;
+}
+
+.woocommerce-message::before {
+    color: #8AA0B4;
+}
